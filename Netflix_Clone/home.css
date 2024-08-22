@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(Images/First_image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 170px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.bg header .btn {
+  display: flex;
+}
+.bg header h2 {
+  font-size: 42px;
+  color: red;
+  line-height: 75px;
+}
+
+.bg header .btn .lang select {
+  color: white;
+  background: black;
+  font-size: 20px;
+  padding: 2px 5px;
+  margin: 21px;
+}
+.bg header .btn .signin button {
+  font-size: 17px;
+  color: white;
+  background: red;
+  margin-top: 20px;
+  border: 2px solid red;
+  border-radius: 3px;
+  padding: 3px;
+}
+.bg header .btn .signin button h3 a {
+  color: white;
+  font-size: 16px;
+  padding: 0 7px;
+  text-decoration: none;
+}
+.bg .banner {
+  width: 100%;
+  height: 300px;
+  margin-top: 250px;
+  color: white;
+}
+.bg .banner .Email {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.bg .banner .Email input {
+  border: 1px solid white;
+  height: 50px;
+  width: 360px;
+  padding: 15px;
+  margin-right: 15px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+.bg .banner .Email button {
+  border: 1px solid red;
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  background: red;
+  border-radius: 3px;
+}
+.bg .banner .Email button a {
+  text-decoration: none;
+  color: white;
+}
+
+.second {
+  height: 520px;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px;
+}
+.second .tv_content {
+  margin-left: 10px;
+  color: white;
+  margin-top: 170px;
+}
+.second .tv_content h4 {
+  font-size: 55px;
+  font-weight: 1000;
+}
+.second .tv_content p {
+  font-size: 24px;
+}
+.second .tv img {
+  height: 360px;
+  width: 470px;
+  margin-top: 70px;
+}
+.third {
+  height: 520px;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 150px;
+}
+.third .phone img {
+  height: 354px;
+  width: 472px;
+  margin-top: 90px;
+}
+.third .phone_content {
+  color: white;
+  margin-top: 140px;
+}
+.third .phone_content h4 {
+  font-size: 54px;
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+.third .phone_content p {
+  font-size: 25px;
+}
+
+.fourth {
+  height: 520px;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 115px;
+}
+.fourth .desktop_content {
+  margin-left: 10px;
+  color: white;
+  margin-top: 170px;
+}
+.fourth .desktop_content h4 {
+  font-size: 55px;
+  font-weight: 1000;
+}
+.fourth .desktop_content p {
+  font-size: 24px;
+}
+.fourth .desktop img {
+  height: 360px;
+  width: 470px;
+  margin-top: 70px;
+}
+.fifth {
+  height: 520px;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 150px;
+}
+.fifth .child img {
+  height: 354px;
+  width: 472px;
+  margin-top: 90px;
+}
+.fifth .child_content {
+  color: white;
+  margin-top: 140px;
+}
+.fifth .child_content h4 {
+  font-size: 54px;
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+.fifth .child_content p {
+  font-size: 25px;
+}
+.sixth {
+  height: 915px;
+  width: 100%;
+  background: black;
+}
+.sixth h2 {
+  font-size: 50px;
+  font-weight: 1000;
+  color: white;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+.sixth button {
+  display: flex;
+  height: 80px;
+  width: 80%;
+  margin-bottom: 10px;
+  line-height: 80px;
+  background-color: #393939e3;
+  color: white;
+  border: 0 #393939e3;
+  margin-left: 120px;
+}
+.sixth .sixth_btn {
+  font-size: 23px;
+  padding: 0 20px;
+}
+.sixth h3 {
+  color: white;
+  font-size: 22px;
+  margin-top: 50px;
+  font-weight: normal;
+}
+
+.sixth .Email {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.sixth .Email input {
+  border: 1px solid white;
+  height: 50px;
+  width: 360px;
+  padding: 15px;
+  margin-right: -110px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+.sixth .Email button {
+  border: 1px solid red;
+  font-size: 20px;
+  line-height: 50px;
+  height: 50px;
+  width: 200px;
+  background: red;
+  border-radius: 3px;
+  padding-left: 35px;
+}
+.sixth .Email button a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 420px;
+  background: black;
+  padding: 5rem 10rem 5rem;
+  color: #ffffffb0;
+  padding-right: 300px;
+}
+.footer-content h3 {
+  color: #ffffffb0;
+  font-weight: normal;
+}
+.footer-content h3 a {
+  color: #ffffffb0;
+}
+footer .ft_content {
+  margin-top: 20px;
+  color: #ffffffb0;
+  display: flex;
+  justify-content: space-between;
+  line-height: 35px;
+}
+footer .ft_content .list ul {
+  list-style-type: none;
+}
+footer .ft_content .list li a {
+  color: #ffffffb0;
+}
+footer .lang select {
+  color: white;
+  background: black;
+  font-size: 20px;
+  padding: 2px 5px;
+  margin-top: 20px;
+}
+footer h5 {
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: normal;
+}
