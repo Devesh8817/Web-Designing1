@@ -117,6 +117,7 @@
   height: 360px;
   width: 470px;
   margin-top: 70px;
+  z-index: 1;
 }
 .third {
   height: 520px;
@@ -299,4 +300,30 @@ footer h5 {
   font-size: 15px;
   margin-top: 20px;
   font-weight: normal;
+}
+
+.hgt{
+  margin-top: 20px;
+  position: relative;
+  bottom: 400px;
+
+}
+.hgt video{
+  height: 200px;
+  width: 390px;
+  margin-left: 692px;
+  padding: 6px;
+  margin-top: 3px;
+}
+.igt{
+  margin-top: -27px;
+  position: relative;
+  bottom: 400px; 
+}
+.igt video{
+  height: 175px;
+  width: 305px;
+  margin-left: 730px;
+  padding: 6px;
+  margin-top: 3px;
 }
